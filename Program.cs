@@ -8,8 +8,8 @@ namespace kolko_i_krzyzyk
         {
             string imieGraczaA = "";
             string imieGraczaB = "";
-            char znakGraczaA = 'x';
-            char znakGraczaB = 'o';
+            //char znakGraczaA = 'x';
+            //char znakGraczaB = 'o';
             char[,] plansza = new char[3, 3]
             {
                 {'1', '2', '3'},
@@ -24,15 +24,17 @@ namespace kolko_i_krzyzyk
             imieGraczaB = Console.ReadLine();
 
             //Petla na kolejne ruchy graczy
-            bool koniceGry = false;
+            //bool koniceGry = false;
             for (int runda = 0; runda < plansza.Length; ++runda)
             {
                 Console.Clear();
                 RysujPlansze(plansza);
 
                 Console.ReadKey();
-                
-                
+//ssss
+
+
+
             }
             
 
