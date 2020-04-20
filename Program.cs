@@ -31,7 +31,7 @@ namespace kolko_i_krzyzyk
                 RysujPlansze(plansza);
 
                 Console.ReadKey();
-
+                Console.WriteLine("cos");
                 
             }
             
